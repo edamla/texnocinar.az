@@ -1,7 +1,7 @@
 # Site
-name: 'Genç Damla'
-language: "tr"
-description: 'Çocuklara Okumayı Sevdiren Yayınevi...'
+name: 'Texno Çinar'
+language: "az"
+description: 'Çinar Yayımları Nəşriyyatı'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon/favicon.ico'
 baseurl: ''
@@ -28,7 +28,7 @@ permalink: /:title/
 
 # BuyOut Ecommerce
 buyout:
-  enabled: true
+  enabled: false
   #buyout websites:
   damlayayinevi: true
   hepsiburada: true
@@ -75,33 +75,6 @@ defaults:
     values:
       layout: book
 
-  # all authors
-  - scope:
-      type: "authors"
-      path: "_authors"
-    values:
-      layout: author
-
-  # all persons
-  - scope:
-      type: "persons"
-      path: "_persons"
-    values:
-      layout: person
-
-  # all illustrators
-  - scope:
-      type: "illustrators"
-      path: "_illustrators"
-    values:
-      layout: illustrator
-
-  # all translators
-  - scope:
-      type: "translators"
-      path: "_translators"
-    values:
-      layout: translator
   # all slides
   - scope:
       type: "slides"
@@ -115,7 +88,7 @@ highlighter: rouge
 feed:
   collections:
     books:
-      path: "/kitaplar/feed.xml"
+      path: "/nesrler/feed.xml"
     authors:
       path: "/yazarlar/feed.xml"
     illustrators:

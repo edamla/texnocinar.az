@@ -30,37 +30,26 @@ layout: default
 						<!-- Author list -->
 						<h1 class="display-4 mb-4 article-headline">{{ book.title }}</h1>
 
-
+<!-- 
 						<p class="font-weight-bold">
 							<span class="catlist">
 							{% for cat in book.categories %}
 							  <a class="sscroll text-danger" href="{{site.baseurl}}/kategoriler.html#{{ cat | downcase }}">{{ cat }}</a><span class="sep">, </span>
 							{% endfor %}
 							</span>
-						</p>
+						</p> -->
 
 						<!-- read time and date -->
 						<!-- <h6 class="text-muted d-block mt-1">{{ book.date | date: '%d.%m.%Y' }} · {% include meta-read-time.html %}</h6> -->
 						<!-- <h6 class="text-muted d-block mt-1">{{ book.date | date: '%d.%m.%Y' }}</h6> -->
 
-						<!-- Tags -->
-						<div class="mb-4">
-							<span class="taglist">
-							{% for tag in page.tags %}
-							<div class="sscroll btn btn-light btn-sm font-weight-bold">
-							#{{ tag | downcase }}
-							</div>
-							<!-- <a class="sscroll btn btn-light btn-sm font-weight-bold" href="{{site.baseurl}}/etiketler.html#{{ tag | downcase }}">#{{ tag | downcase }}</a> -->
-							{% endfor %}
-							</span>
-						</div>
 
 						<div class="icon-block mt-3 d-inline-grid">  
 							{% if site.pagepreview.enabled == true and book.previewpage == true and book.ean %}
-							<a class="sscroll btn btn-light btn-sm font-weight-bold d-block float-left" target="_blank" href="{{ site.pagepreview.prefix }}{{ book.ean }}{{site.pagepreview.postfix}} "><i class="fas fa-book-reader fa-2x text-primary" aria-hidden="true"></i><span class="font-weight-bold btn-sm">Ön Okuma</span></a>  &nbsp;
+							<a class="sscroll btn btn-light btn-sm font-weight-bold d-block float-left" target="_blank" href="{{ site.pagepreview.prefix }}{{ book.ean }}{{site.pagepreview.postfix}} "><i class="fas fa-book-reader fa-2x text-primary" aria-hidden="true"></i><span class="font-weight-bold btn-sm">Sayfaları İncele</span></a>  &nbsp;
 							{% endif %}
 							{% if book.youtube %}
-							<a class="sscroll btn btn-light btn-sm font-weight-bold d-block float-left" target="_blank" href="{{ book.youtube }}"><i class="fab fa-youtube fa-2x text-danger" aria-hidden="true"></i><span class="font-weight-bold btn-sm">Tanıtım</span></a>  &nbsp;
+							<a class="sscroll btn btn-light btn-sm font-weight-bold d-block float-left" href="{{book.url}}#nowPlay"><i class="fab fa-youtube fa-2x text-danger" aria-hidden="true"></i><span class="font-weight-bold btn-sm">Video İzahlar</span></a>  &nbsp;
 							{% endif %}
 							<a class="sscroll btn btn-light btn-sm font-weight-bold d-block float-left" href="{{book.url}}#buyout"><i class="fas fa-shopping-cart fa-2x text-success" aria-hidden="true"></i><span class="font-weight-bold btn-sm">E-Satış</span></a>  &nbsp;
 

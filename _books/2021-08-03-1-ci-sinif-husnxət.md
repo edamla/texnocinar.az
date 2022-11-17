@@ -9,6 +9,9 @@ grades: "1-Cİ SİNİF" # "məktəbəqədər" ,"1sinif", "2sinif", "3sinif", "4s
 categories: [ "Egitim" ]
 tags: [ "roman"]
 previewpage: true
+youtube: true
+youtubes: [ ["Gönenli Mehmet Efendi" , "05:36", "Uv8L8rHKza4" ],
+["Gönenli Mehmet Efendi2", "05:36", "GRM9viRZGnk" ],]
 
 # Book attributes
 ean: 1664283569

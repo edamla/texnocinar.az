@@ -4,10 +4,10 @@ layout: person2
 title:  "Hafız Mehmet Öğütçü (Gönenli)"
 # musics : [[ name , "duration" , filename]]
 music: true
-musics: [  [Gönenli Mehmet Efendi , "01:36" , 10-gonenli-hafiz-mehmet/1]]
+musics: [  [Gönenli Mehmet Efendi , "01:36" , "nb_GE3bqI-k"]]
 youtube: true
-youtubes: [ [Gönenli Mehmet Efendi , "05:36", "1ZQY4Z7ZQZ8" ],
-[Gönenli Mehmet Efendi , "05:36", "GRM9viRZGnk" ],]
+youtubes: [ ["Gönenli Mehmet Efendi" , "05:36", "Uv8L8rHKza4" ],
+["Gönenli Mehmet Efendi2", "05:36", "GRM9viRZGnk" ],]
 # pdfs : [[name, filename]]
 pdf: false
 pdfs: []

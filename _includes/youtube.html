@@ -2,21 +2,21 @@
 <!-- <link rel='stylesheet prefetch' href='https://cdn.plyr.io/2.0.13/plyr.css'> -->
 <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
 <style>
-   .audio-container ul{
+   .video-container ul{
        list-style: none;
    }
 </style>
-<div class="container audio-container">
+<div class="container video-container">
     <div class="column add-bottom">
         <div id="mainwrap">
             <div id="div_main">
                 <div id="nowPlay">
-                    <span class="left" id="npAction">Duraklatıldı...</span>
-                    <span class="right" id="npTitle"></span>
+                    <span class="left d-none" id="npAction">Duraklatıldı...</span>
+                    <span class="center" id="npTitle"></span>
                 </div>
-                <div id="audiowrap">
-                    <div id="audio0">
-                        <video preload id="audio1" controls="controls">Tarayıcınız Ses Dosyalarını Açamıyor!</video>
+                <div id="videowrap">
+                    <div id="video0">
+                        <video preload id="video1" controls="controls">Tarayıcınız Video Dosyalarını Açamıyor!</video>
                     </div>
                     <div id="tracks" style="text-align: center;">
                         <a id="btnPrev">&larr;</a>
@@ -39,9 +39,9 @@
 
         {
         "track": {{ forloop.index }},
-        "name":  "{{ music[0] }}",
-        "duration": "{{ music[1] }}",
-        "file": "{{ music[2] }}"
+        "name":  "{{ youtube[0] }}",
+        "duration": "{{ youtube[1] }}",
+        "file": "{{ youtube[2] }}"
         },
 
     {% endfor %}

@@ -21,9 +21,8 @@ function getParameterByName(name, url) {
 jQuery(function ($) {
     'use strict'
     // initialize plyr
-    const player = new Plyr('#audio1');
-    console.log(player);
-    var supportsAudio = !!document.createElement('video').canPlayType;
+    const player = new Plyr('#video1');
+    var supportPlayer = !!document.createElement('video').canPlayType;
 
     var id = getParameterByName('id');
 
@@ -35,16 +34,14 @@ jQuery(function ($) {
     }
 
 
-    if (supportsAudio) {
-        // debugger;
+    if (supportPlayer) {
          var index = id,
             playing = false,
             mediaPath = '/assets/musics/',
             extension = '',
             tracks = playlist,
             buildPlaylist = $(tracks).each(function(key, value) {
-                console.log(key);
-                console.log(value);
+                // console.log(key,value);
                 var trackNumber = value.track,
                     trackName = value.name,
                     trackDuration = value.duration;
@@ -56,7 +53,7 @@ jQuery(function ($) {
             trackCount = tracks.length,
             npAction = $('#npAction'),
             npTitle = $('#npTitle'),
-            audio = $('#audio1').on('play', function () {
+            video = $('#video1').on('play', function () {
                 playing = true;
                 npAction.text('Oynatılıyor...');
             }).on('pause', function () {
@@ -79,11 +76,11 @@ jQuery(function ($) {
                     index--;
                     loadTrack(index);
                     if (playing) {
-                        //audio.play();
+                        //video.play();
                         player.play();
                     }
                 } else {
-                    //audio.pause();
+                    //video.pause();
                     player.pause();
                     index = 0;
                     loadTrack(index);
@@ -94,11 +91,11 @@ jQuery(function ($) {
                     index++;
                     loadTrack(index);
                     if (playing) {
-                        //audio.play();
+                        //video.play();
                         player.play();
                     }
                 } else {
-                    //audio.pause();
+                    //video.pause();
                     player.pause();
                     index = 0;
                     loadTrack(index);
@@ -115,7 +112,7 @@ jQuery(function ($) {
                 $('#plList li:eq(' + id + ')').addClass('plSel');
                 npTitle.text(tracks[id].name);
                 index = id;
-                //audio.src = mediaPath + tracks[id].file + extension;
+                //video.src = mediaPath + tracks[id].file + extension;
                 player.source = {
                     type: 'video',
                     sources: [
@@ -129,12 +126,10 @@ jQuery(function ($) {
             playTrack = function (id) {
 
                 loadTrack(id);
-                //audio.play();
+                //video.play();
                 player.play();
             };
-        extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
-
-
+        extension = video.canPlayType('audio/mpeg') ? '.mp3' : video.canPlayType('audio/ogg') ? '.ogg' : '';
 
         loadTrack(index);
 

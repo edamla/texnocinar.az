@@ -1,4 +1,4 @@
-.audio-container {
+.video-container {
     background-color: #c7c7c7;
     padding: 5vh;
     margin-bottom: 1vh;
@@ -24,7 +24,6 @@
 #plList li:hover {
     background-color: rgba(0, 0, 0, .1);
 }
-
 
 
 .plSel,
@@ -71,6 +70,11 @@
     margin-left: auto;
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media(max-width:991px) {
     #nowPlay {
         font-size: medium;
@@ -79,25 +83,4 @@
     .plItem {
         font-size: medium;
     }
-}
-
-
-.pdf-box{
-    transform: scale(0.8);
-    transition: 0.7s;
-}
-.pdf-box:hover{
-    transform: scale(1);
-    transition: 0.7s;
-    cursor: pointer;
-}
-
-.pdfTitle {
-    text-decoration: none;
-    color: black;
-}
-
-.pdfTitle:hover {
-    text-decoration: none !important;
-    color: black !important;
 }

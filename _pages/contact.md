@@ -1,13 +1,11 @@
 ---
-title: "İletişim"
-permalink: "/iletisim"
+title: "ƏLAQƏ"
+permalink: "/alaka"
 comments: false
 ---
 
-<h5>Adres:</h5>
-<div>Genç Damla,
-Prof. Kazım İsmail Gürkan Cad. No:8 Kat: 2
-Cagaloglu - Fatih, 34110 İstanbul</div>
+<h5>Ünvan:</h5>
+<div>Gənclik metrosu, Atatürk prospekti, Baku, Azerbaijan 1069</div>
 <h5>Telefon:</h5>
 <div><a href="tel:+902125142828">+90 212 514 28 28</a></div>
 <h5>e-posta:</h5>

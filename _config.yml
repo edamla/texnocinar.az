@@ -8,14 +8,14 @@ baseurl: ''
 
 # Social Settings
 disqus: #'demowebsite'
-email: 'iletisim@damlayayinevi.com.tr'
+email: 'cinaryayimlari@gmail.com'
 mailchimp-list: #'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 google_analytics: 'G-4HBNJGRG32'
 katalogurl: 'https://cdn.e-damla.com.tr/PUBLIC/Kataloglar/genc-damla/index.html'
-twitter: 'https://twitter.com/gencdamlakitap'
-facebook: 'https://www.facebook.com/gencdamlakitap'
-instagram: 'https://instagram.com/gencdamla_kitap'
-youtube: 'https://www.youtube.com/c/DamlaYay%C4%B1nevi%C4%B0stanbul'
+#twitter: 'https://twitter.com/gencdamlakitap'
+facebook: 'https://www.facebook.com/cinaryayimlari'
+instagram: 'https://instagram.com/cinar_yayimlari/'
+youtube: 'https://www.youtube.com/@TEXNOCINAR'
 
 pagepreview:
   enabled: true

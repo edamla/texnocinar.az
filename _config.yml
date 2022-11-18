@@ -119,20 +119,8 @@ sass:
 collections:
   books:
     output: true
-    permalink: /kitaplar/:title
+    permalink: /nesrler/:title
     sort_by: publish-number
-  authors:
-    output: true
-    permalink: /yazarlar/:title
-  illustrators:
-    output: true
-    permalink: /cizerler/:title
-  translators:
-    output: true
-    permalink: /cevirmenler/:title
-  persons:
-    output: true
-    permalink: /sahsiyetler/:title
   slides: 
     output: false
     sort_by: order

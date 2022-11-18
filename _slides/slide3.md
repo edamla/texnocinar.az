@@ -1,8 +1,8 @@
 ---
-order: 5
-title:  "Asık Suratlı Çocuk 2 Böceklerin İstilası"
-img: "assets/images/slides/2.jpg"
-mobile-img: "assets/images/slides/2m.jpg"
-href: "/kitaplar/asik-suratli-cocuk-2-bocek-istilasi"
+order: 3
+title:  "Gizemli Gizem Ah Çarpan Bir Eleman Olsam!"
+img: "assets/images/slides/3.jpg"
+mobile-img: "assets/images/slides/3m.jpg"
+href: "/kitaplar/gizemli-gizem-ah-bir-carpan-eleman-olsam"
 target: "" # _blank
 ---

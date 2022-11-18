@@ -1,8 +1,8 @@
 ---
-order: 4
-title:  "Saçaklı Kızın Pasaklı Günlüğü 2"
-img: "assets/images/slides/1.jpg"
-mobile-img: "assets/images/slides/1m.jpg"
-href: "/kitaplar/sacakli-kizin-pasakli-gunlugu-2"
+order: 2
+title:  "Asık Suratlı Çocuk 2 Böceklerin İstilası"
+img: "assets/images/slides/2.jpg"
+mobile-img: "assets/images/slides/2m.jpg"
+href: "/kitaplar/asik-suratli-cocuk-2-bocek-istilasi"
 target: "" # _blank
 ---

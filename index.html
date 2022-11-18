@@ -1,9 +1,9 @@
 ---
-title: "Anasayfa"
+title: "Ana səhifə"
 layout: default
 pagination:
     enabled: true
-description: "Çocuklara Okumayı Sevdiren Yayınevi..."
+description: "Təməlində sevgi var..."
 ---
 
 
@@ -57,7 +57,8 @@ description: "Çocuklara Okumayı Sevdiren Yayınevi..."
                         <div class="p-2 border rounded">
                             <div class="row">
                                 <div class="col-md-12 d-flex justify-content-between mb-1 mb-md-1"></div>
-                                <div class="col-md-12">
+                                <div class="col-md-12 text-center">
+                                        <img class="img-grade" src="{{ site.baseurl }}/assets/images/grades/{{grade | downcase | slugify: 'latin'}}.png" class="img-fluid" alt="{{grade}}. Sınıf">
                                         <h6 class="text-dark mb-0 justify-content-between text-center text-nowrap">  {{grade}} </h6>
                                 </div>
                             </div>
@@ -106,7 +107,7 @@ description: "Çocuklara Okumayı Sevdiren Yayınevi..."
 </div>
 
 
-<h4 class="font-weight-bold spanborder mt-3"><span>Yeni Çıkanlar</span></h4>
+<h4 class="font-weight-bold spanborder mt-3"><span>Yeni Nəşrlər</span></h4>
 {% assign bookarray = "" | split: ',' %}
 {% assign sortedarray = "" | split: ',' %}
 

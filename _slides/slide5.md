@@ -1,8 +1,8 @@
 ---
-order: 7
-title:  "Dron Savaşları Mağaradaki Sır"
-img: "assets/images/slides/4.jpg"
-mobile-img: "assets/images/slides/4m.jpg"
-href: "/kitaplar/dron-savaslari-magaradaki-sir"
+order: 5
+title:  "Dedektiflik Kuruntusu 2 Bu Diş izleri kimin"
+img: "assets/images/slides/5.jpg"
+mobile-img: "assets/images/slides/5m.jpg"
+href: "/kitaplar/dedektiflik-kuruntusu-2-bu-dis-izleri-kimin"
 target: "" # _blank
 ---

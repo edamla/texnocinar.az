@@ -194,6 +194,8 @@ a.text-dark:hover {
 .navbar {
 	transition:top 0.2s ease-in-out;
 	font-weight:400;
+	border-bottom: 0.5px solid #dfdddd;
+	filter: drop-shadow(-3px 0px 7px gray);
 }
 .navbar .highlight .nav-link {
 	color:#03a87c !important;
@@ -641,7 +643,7 @@ ol.list-featured li:before {
 	display:none;
 }
 footer {
-	margin-top:50px;
+	margin-top:100px;
 	z-index:1022;
 	position:relative;
 }
@@ -875,4 +877,29 @@ a:hover {
 .kitap-kutu{
 	background: #f5f5f5;
 	margin-bottom: 4vh;
+}
+
+.img-grade {
+	max-height: 10vh;
+	padding-bottom: 1vh;
+}
+
+.fa-facebook-square {
+	color: #3b5998;
+}
+
+.fa-instagram-square {
+	color: #e4405f;
+}
+
+.fa-twitter-square {
+	color: #55acee;
+}
+
+.fa-youtube-square {
+	color: #bb0000;
+}
+
+.tns-ovh{
+	padding-top: 15px;
 }

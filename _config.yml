@@ -5,6 +5,7 @@ description: 'Çinar Yayımları Nəşriyyatı'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon/favicon.ico'
 baseurl: ''
+port: 80
 
 # Social Settings
 disqus: #'demowebsite'

@@ -38,22 +38,9 @@ description: "Təməlində sevgi var..."
                 <div class="row">
         
                 {% for grade in uniqgradesarray %}
-                <!-- toogle sınıf -->
-        
-                <!-- <div class="col-lg-2 mb-3">
-                    <a href="#sinif_{{grade}}" onclick="ackapa('.sinif-{{grade}}');return false;">
-                    <div class="p-4 border rounded">
-                        <div class="row">
-                            <div class="col-md-12 d-flex justify-content-between mb-1 mb-md-1"></div>
-                            <div class="col-md-12">
-                                    <h5 class="text-dark mb-0 justify-content-center text-center"> {{grade}}. Sınıf </h5>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                </div> -->
+
                 <div class="col-lg-2 mb-3">
-                    <a href="#sinif_{{subject | downcase | slugify: 'latin'}}" onclick="ackapa('.sinif-{{grade | downcase | slugify: 'latin'}}');return false;">
+                    <a href="#sinif_{{grade | downcase | slugify: 'latin'}}" onclick="ackapa('.sinif-{{grade | downcase | slugify: 'latin'}}');return false;">
                         <div class="p-2 border rounded">
                             <div class="row">
                                 <div class="col-md-12 d-flex justify-content-between mb-1 mb-md-1"></div>
@@ -106,23 +93,6 @@ description: "Təməlində sevgi var..."
     
 </div>
 
-
-<h4 class="font-weight-bold spanborder mt-3"><span>Yeni Nəşrlər</span></h4>
-{% assign bookarray = "" | split: ',' %}
-{% assign sortedarray = "" | split: ',' %}
-
-{% assign sortedarray = site.books | sort: "publish-number" | reverse %}
-
-{% for book in sortedarray limit:10 %}
-    {% assign bookarray = bookarray | push: book %}
-{% endfor %}
-
-{% assign books = bookarray %}
-{% include product-slider.html %}
-
-<!-- {% assign books = site.books %}
-{% include product-slider.html %}
-   
 
 
 {% endif %} <!--endif page url is / -->

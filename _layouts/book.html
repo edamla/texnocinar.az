@@ -82,11 +82,6 @@ layout: default
 		<!-- Attribute list: -->
 		<div class="col-md-3 order-md-1">
 						<ul class="list-group mb-4">
-							{% if book.publish-number %}
-							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-fingerprint mr-1 fa-lg text-dark"></i><span class="mr-1">Yayın No:</span>{{book.publish-number}}
-							</li>
-							{% endif %}
 
 							{% if book.authors %}
 							<li class="list-group-item">
@@ -94,57 +89,9 @@ layout: default
 							</li>
 							{% endif %}
 
-							{% if book.illustrators %}
-							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-paint-brush mr-1 fa-lg text-warning"></i><span class="mr-1">Tasarım:</span>{% for bookillustrator in book.illustrators %} {% assign siteillustrator = site.illustrators | where:"key", bookillustrator | first %} <a href="{{ site.baseurl }}/{{siteillustrator.url}}">{{ siteillustrator.title }}</a>{% if forloop.last == false %},{% endif %} {% endfor %}
-							</li>
-							{% endif %}
-
 							{% if book.page %}
 							<li class="list-group-item">
 								<div class="md-v-line"></div><i class="fas fa-book-open mr-1 fa-lg text-primary"></i><span class="mr-1">Sayfa:</span> {{book.page}}
-							</li>
-							{% endif %}
-
-							{% if book.size %}
-							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-ruler mr-1 fa-lg text-danger"></i><span class="mr-1">Boyut:</span>{{book.size}}
-							</li>
-							{% endif %}
-
-							{% if book.cover %}
-							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-book mr-1 fa-lg text-dark"></i><span class="mr-1">Kapak:</span>{{book.cover}}
-							</li>
-							{% endif %}
-
-							{% if book.ean %}
-							<li class="list-group-item">
-							  <div class="md-v-line"></div><i class="fas fa-barcode mr-1 fa-lg text-dark"></i><span class="mr-1">Barcode :</span> {{book.ean}}
-							</li>
-							{% endif %}
-
-							{% if book.languages %}
-							<li class="list-group-item">
-							  <div class="md-v-line"></div><i class="fas fa-language mr-1 fa-lg text-info"></i><span class="mr-1">Dil:</span>{% for language in book.languages %} {{ language }}{% if forloop.last == false %},{% endif %} {% endfor %}
-							</li>
-							{% endif %}
-
-							{% if book.translators %}
-							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-globe-americas mr-1 fa-lg text-danger"></i><span class="mr-1">Çevirmen:</span>{% for booktranslator in book.translators %} {% assign sitetranslator = site.translators | where:"key", booktranslator | first %} <a href="{{ site.baseurl }}/{{sitetranslator.url}}">{{ sitetranslator.title }}</a>{% if forloop.last == false %},{% endif %} {% endfor %}
-							</li>
-							{% endif %}
-
-							{% if book.original-name %}
-							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-book mr-1 fa-lg text-danger"></i><span class="mr-1">Orjinal Eser:</span>{{ book.original-name }}
-							</li>
-							{% endif %}
-
-							{% if book.original-language %}
-							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-globe-americas mr-1 fa-lg text-success"></i><span class="mr-1">Orjinal Dil:</span>{{ book.original-language }}
 							</li>
 							{% endif %}
 

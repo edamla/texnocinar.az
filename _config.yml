@@ -90,10 +90,6 @@ feed:
   collections:
     books:
       path: "/nesrler/feed.xml"
-    authors:
-      path: "/yazarlar/feed.xml"
-    illustrators:
-      path: "/cizerler/feed.xml"
 
 # excerpt
 excerpt_separator: <!--more-->

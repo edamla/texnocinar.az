@@ -5,21 +5,6 @@ permalink: "/nesrler"
 ---
 
 <div class="container">
-
-<h4 class="font-weight-bold spanborder"><span>Yeni Çıkanlar</span></h4>
-{% assign bookarray = "" | split: ',' %}
-{% assign sortedarray = "" | split: ',' %}
-
-{% assign sortedarray = site.books | sort: "publish-number" | reverse %}
-
-{% for book in sortedarray limit:10 %}
-    {% assign bookarray = bookarray | push: book %}
-{% endfor %}
-
-{% assign books = bookarray %}
-{% include product-slider.html %}
-
-<div class="container">
     <h4 class="font-weight-bold spanborder mt-3"><span>NƏŞRLƏR</span></h4>
             {% assign arrgrades = "" | split: "," %}
             <!-- Burada konu listesi oluştur.     -->
@@ -37,26 +22,14 @@ permalink: "/nesrler"
             <div class="row">
     
             {% for grade in uniqgradesarray %}
-            <!-- toogle sınıf -->
-    
-            <!-- <div class="col-lg-2 mb-3">
-                <a href="#sinif_{{grade}}" onclick="ackapa('.sinif-{{grade}}');return false;">
-                <div class="p-4 border rounded">
-                    <div class="row">
-                        <div class="col-md-12 d-flex justify-content-between mb-1 mb-md-1"></div>
-                        <div class="col-md-12">
-                                <h5 class="text-dark mb-0 justify-content-center text-center"> {{grade}}. Sınıf </h5>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            </div> -->
+
             <div class="col-lg-2 mb-3">
-                <a href="#sinif_{{subject | downcase | slugify: 'latin'}}" onclick="ackapa('.sinif-{{grade | downcase | slugify: 'latin'}}');return false;">
+                <a href="#sinif_{{grade | downcase | slugify: 'latin'}}" onclick="ackapa('.sinif-{{grade | downcase | slugify: 'latin'}}');return false;">
                     <div class="p-2 border rounded">
                         <div class="row">
                             <div class="col-md-12 d-flex justify-content-between mb-1 mb-md-1"></div>
-                            <div class="col-md-12">
+                            <div class="col-md-12 text-center">
+                                    <img class="img-grade" src="{{ site.baseurl }}/assets/images/grades/{{grade | downcase | slugify: 'latin'}}.png" class="img-fluid" alt="{{grade}}. Sınıf">
                                     <h6 class="text-dark mb-0 justify-content-between text-center text-nowrap">  {{grade}} </h6>
                             </div>
                         </div>
@@ -87,7 +60,7 @@ permalink: "/nesrler"
             {% endfor %}
     
     
-    </div>
+</div>
     
     <script>
         // document.querySelector('.sinif-{{grade}}').classList.toggle('d-none')
@@ -99,4 +72,3 @@ permalink: "/nesrler"
             document.querySelector(className).classList.toggle('d-none');
         }
     </script>
-</div>

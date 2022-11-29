@@ -1,8 +1,8 @@
 ---
 order: 4
-title:  "Dron Savaşları Mağaradaki Sır"
+title:  "4"
 img: "assets/images/slides/4.jpg"
 mobile-img: "assets/images/slides/4m.jpg"
-href: "/kitaplar/dron-savaslari-magaradaki-sir"
+href: "#"
 target: "" # _blank
 ---

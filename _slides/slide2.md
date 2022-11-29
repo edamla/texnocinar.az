@@ -1,8 +1,8 @@
 ---
 order: 2
-title:  "Asık Suratlı Çocuk 2 Böceklerin İstilası"
+title:  "2"
 img: "assets/images/slides/2.jpg"
 mobile-img: "assets/images/slides/2m.jpg"
-href: "/kitaplar/asik-suratli-cocuk-2-bocek-istilasi"
+href: "#"
 target: "" # _blank
 ---

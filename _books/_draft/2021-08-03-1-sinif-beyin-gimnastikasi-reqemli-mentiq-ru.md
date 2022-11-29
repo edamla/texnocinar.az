@@ -1,19 +1,19 @@
 ---
 layout: book
-title:  "Diqqət və Zəka 3-4 yaş. (Bağça uşaqları üçün vəsait)"
+title:  "1-ci sinif HÜSNXƏT"
 authors: ["Bəhram Oruclu"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
-image: assets/images/ean/9789952840513.png
-grades: "BAĞÇA UŞAQLARI" # "məktəbəqədər" ,"1sinif", "2sinif", "3sinif", "4sinif", "5sinif"
+image: assets/images/ean/1664283569.png
+grades: "1-Cİ SİNİF" # "məktəbəqədər" ,"1sinif", "2sinif", "3sinif", "4sinif", "5sinif"
 categories: [ "Egitim" ]
 tags: [ "roman"]
 previewpage: true
 
 # Book attributes
-ean: 9789952840513
+ean: 1664283569
 languages: ["Türkçe"]
-page: 120
+page: 100
 size: "13,5x21cm"
 publish-number: 27
 cover: "Karton Kapak"

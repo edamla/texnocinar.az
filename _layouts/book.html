@@ -19,10 +19,7 @@ layout: default
 
 					<p class="text-uppercase font-weight-bold">
 						<span class="catlist">
-						{% for bookauthor in book.authors %}
-						{% assign siteauthor = site.authors | where:"key", bookauthor | first %}
-						  <a class="sscroll text-danger" href="{{ siteauthor.url }}">{{ siteauthor.title }}</a><span class="sep">, </span>
-						{% endfor %}
+						  <a class="sscroll text-danger" href="#">{{ book.authors }}</a><span class="sep">, </span>
 						</span>
 					</p>
 
@@ -51,8 +48,9 @@ layout: default
 							{% if book.youtube %}
 							<a class="sscroll btn btn-light btn-sm font-weight-bold d-block float-left" href="{{book.url}}#nowPlay"><i class="fab fa-youtube fa-2x text-danger" aria-hidden="true"></i><span class="font-weight-bold btn-sm">Video İzahlar</span></a>  &nbsp;
 							{% endif %}
-							<a class="sscroll btn btn-light btn-sm font-weight-bold d-block float-left" href="{{book.url}}#buyout"><i class="fas fa-shopping-cart fa-2x text-success" aria-hidden="true"></i><span class="font-weight-bold btn-sm">E-Satış</span></a>  &nbsp;
-
+							{% if book.buynow %}
+							<a class="sscroll btn btn-light btn-sm font-weight-bold d-block float-left" target="_blank" href="{{book.buynow}}"><i class="fas fa-shopping-cart fa-2x text-success" aria-hidden="true"></i><span class="font-weight-bold btn-sm">E-Satış</span></a>  &nbsp;
+							{% endif %}
 						</div>
 
 					</div>
@@ -85,7 +83,7 @@ layout: default
 
 							{% if book.authors %}
 							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-user-edit mr-1 fa-lg text-primary"></i><span class="mr-1">Yazar:</span>{% for bookauthor in book.authors %} {% assign siteauthor = site.authors | where:"key", bookauthor | first %} <a href="{{siteauthor.url}}">{{ siteauthor.title }}</a>{% if forloop.last == false %},{% endif %} {% endfor %}
+								<div class="md-v-line"></div><i class="fas fa-user-edit mr-1 fa-lg text-primary"></i><span class="mr-1">Yazar:</span>{{ book.authors }}<a href="#">{{ book.autthors }}</a>
 							</li>
 							{% endif %}
 
@@ -269,33 +267,7 @@ layout: default
 		</div>
 	</div>
 
-	<!-- Books by Author(s) -->
-	<div class="row">
-		<div class="col-12">
-			<h4 class="font-weight-bold spanborder"><span>Yazarın diğer kitapları</span></h4>
-			<div class="row mb-3">
-				
-				{% assign bookarray = "" | split: ',' %}
-				{% for book in site.books %}
-					 {%for bookauthor in page.authors %}
-					 <!-- kitapların içinde bu kitabın yazarlarını filtreledik. -->
-						{% if book.authors contains bookauthor %}
-						<!-- çıktı olarak gelen kitapları bir array içine aldık -->
-							{% assign bookarray = bookarray | push: book %}
-						{%endif %}
-					 {% endfor %}
-				{% endfor %}
 
-				<!-- arayyi uniqleştirdik aynı kitap 2 kere çıkmasın diye. -->
-				{% assign uniqbookArray = bookarray | uniq %}
-				{% assign books = uniqbookArray %}
-				{% include product-slider.html %}
-
-			</div>
-		</div>
-		
-	</div>
-	
 	<!-- Mailchimp Subscribe Form -->
 	<div class="row">
 		<div class="col-12">

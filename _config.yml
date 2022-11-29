@@ -20,8 +20,8 @@ youtube: 'https://www.youtube.com/@TEXNOCINAR'
 
 pagepreview:
   enabled: true
-  prefix: 'https://cdn.e-damla.com.tr/damlayayinevi_ornek_sayfalar/'
-  postfix: '/index.html'
+  prefix: '/assets/flips/'
+  postfix: '/mobile/index.html'
 
 include: ["_pages"]
 permalink: /:title/

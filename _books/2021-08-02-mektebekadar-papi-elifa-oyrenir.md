@@ -1,17 +1,17 @@
 ---
 layout: book
 title:  "PAPİ ƏLİFBA ÖYRƏNİR (məktəbəqədər hazırlıq kitabı)"
-authors: ["əfsanə-lacin"]
+authors: ["əfsanə lacin"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
-image: assets/images/ean/9789952840607.png
+image: assets/images/ean/mektebekadar-papi-elifa-oyrenir.png
 grades: "MƏKTƏBƏQƏDƏR" # "məktəbəqədər" ,"1sinif", "2sinif", "3sinif", "4sinif", "5sinif"
 categories: [ "Egitim" ]
 tags: [ "roman"]
 previewpage: true
 
 # Book attributes
-ean: 9789952840607
+ean: mektebekadar-papi-elifa-oyrenir
 languages: ["Türkçe"]
 page: 200
 size: "13,5x21cm"

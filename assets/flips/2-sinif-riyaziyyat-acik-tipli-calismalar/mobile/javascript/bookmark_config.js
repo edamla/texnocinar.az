@@ -1,0 +1,1 @@
+﻿var ols=[{caption:"1 bölmə",page:"1",url:"",level:"1",children:[]},{caption:"2 bölmə",page:"0",url:"",level:"1",children:[]},{caption:"3 bölmə",page:"0",url:"",level:"1",children:[]},{caption:"4 bölmə",page:"0",url:"",level:"1",children:[]},{caption:"5 bölmə",page:"23",url:"",level:"1",children:[]},{caption:"cavablar",page:"0",url:"",level:"1",children:[]}];

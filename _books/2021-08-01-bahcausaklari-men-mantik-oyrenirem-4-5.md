@@ -6,8 +6,8 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/bahcausaklari-men-mantik-oyrenirem-4-5.png
 grades: "BAĞÇA UŞAQLARI" # "məktəbəqədər" ,"1sinif", "2sinif", "3sinif", "4sinif", "5sinif"
-categories: [ "Egitim" ]
-tags: [ "roman"]
+# categories: [ "Egitim" ]
+# tags: [ "roman"]
 previewpage: true
 
 # Book attributes

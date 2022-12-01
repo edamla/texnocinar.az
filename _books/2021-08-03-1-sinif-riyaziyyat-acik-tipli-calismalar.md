@@ -6,8 +6,8 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/1-sinif-riyaziyyat-acik-tipli-calismalar.png
 grades: "1-Cİ SİNİF" # "məktəbəqədər" ,"1sinif", "2sinif", "3sinif", "4sinif", "5sinif"
-categories: [ "Egitim" ]
-tags: [ "roman"]
+# categories: [ "Egitim" ]
+# tags: [ "roman"]
 previewpage: true
 
 # Book attributes
@@ -22,7 +22,7 @@ cover: "Karton Kapak"
 buynow: "https://cinaryayimlari.com/book-inner/1-ci-sinif-riyaziyyat-aciq-tipli-calismalar-3"
 
 youtube: true
-youtube-button: "Video"  
+youtube-button: "TƏQDİMAT VİDEOSU"
 youtubes: [ 
 ['Riyaziyyat Açıq Tipli Çalışmalar', '01:59' ,'https://www.youtube.com/watch?v=ov2LD3Ix-Ng']
 ]

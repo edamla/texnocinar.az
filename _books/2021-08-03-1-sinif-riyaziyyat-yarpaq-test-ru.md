@@ -6,8 +6,8 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/1-sinif-riyaziyyat-yarpaq-test-ru.png
 grades: "1-Cİ SİNİF" # "məktəbəqədər" ,"1sinif", "2sinif", "3sinif", "4sinif", "5sinif"
-categories: [ "Egitim" ]
-tags: [ "roman"]
+# categories: [ "Egitim" ]
+# tags: [ "roman"]
 previewpage: true
 
 # Book attributes
@@ -22,7 +22,7 @@ cover: "Karton Kapak"
 buynow: "https://cinaryayimlari.com/book-inner/1-%D0%BA%D0%BB%D0%B0%D1%81%D1%81-%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0-%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B9-%D1%82%D0%B5%D1%81%D1%82-9"
 
 youtube: true
-youtube-button: "Video"  
+youtube-button: "TƏQDİMAT VİDEOSU" 
 youtubes: [ 
 ['Çinar Yayimlari Riyaziyyat Yarpaq Test Kitabları', '01:59' ,'https://www.youtube.com/watch?v=h-d-obU7JFY']
 ]

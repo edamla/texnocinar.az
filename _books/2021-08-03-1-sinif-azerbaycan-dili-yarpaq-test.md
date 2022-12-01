@@ -6,8 +6,8 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/1-sinif-azerbaycan-dili-yarpaq-test.png
 grades: "1-Cİ SİNİF" # "məktəbəqədər" ,"1sinif", "2sinif", "3sinif", "4sinif", "5sinif"
-categories: [ "Egitim" ]
-tags: [ "roman"]
+# categories: [ "Egitim" ]
+# tags: [ "roman"]
 previewpage: true
 
 # Book attributes
@@ -23,7 +23,7 @@ buynow: "https://cinaryayimlari.com/book-inner/1-ci-sinif-azerbaycan-dili-yarpaq
 
 
 youtube: true
-youtube-button: "Video"  
+youtube-button: "TƏQDİMAT VİDEOSU" 
 youtubes: [ 
 ['1-ci sinif Azərbaycan Dili Yarpaq Test', '01:59' ,'https://www.youtube.com/watch?v=GusVL1yG-CA&list=PLpE19IIk_DPV4z1xFR9LCs3XvZOXWoLW5&index=5']
 ]

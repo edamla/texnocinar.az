@@ -6,8 +6,8 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/mektebekadar-papi-riyaziyyat-oyrenir-ru.png
 grades: "MƏKTƏBƏQƏDƏR" # "məktəbəqədər" ,"1sinif", "2sinif", "3sinif", "4sinif", "5sinif"
-categories: [ "Egitim" ]
-tags: [ "roman"]
+# categories: [ "Egitim" ]
+# tags: [ "roman"]
 previewpage: true
 
 # Book attributes

@@ -35,3 +35,6 @@ Komanda işi – Biz hər bir əməkdaşımızın və tərəfdaşımızın bacar
 və gücünə inanaraq, ümumi missiyamız uğrunda səylərimizi
 birləşdiririk.
 
+<center>
+<iframe style="width: 30vw !important;height: 35vh !important;" frameborder="0" vspace="0" hspace="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" scrolling="auto" src="//www.youtube.com/embed/h0eAVWgNL2w?autoplay=1&amp;autohide=1&amp;fs=1&amp;rel=0&amp;hd=1&amp;wmode=opaque&amp;enablejsapi=1"></iframe>
+</center>

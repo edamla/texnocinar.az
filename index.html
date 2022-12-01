@@ -64,7 +64,7 @@ description: "Təməlində sevgi var..."
                         {% assign books = site.books | where: 'grades', grade | sort: "grade"%}
                         <div class="row gap-y listrecent listauthor">
                         {% for book in books %}
-                            <div class="col-12 col-sm-3 p-4 border rounded kitap-kutu">
+                            <div class="col-6 col-sm-3 p-4 border rounded kitap-kutu">
                                 <a class="baslik-link" href="{{ book.url }}"">            
                                     <img class="cover-images" src="{{site.baseurl}}/{{ book.image }}" alt="">
                                     <h6 class="text-dark mb-0"> {{ book.title }} </h6>

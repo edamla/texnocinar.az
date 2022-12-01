@@ -1,25 +1,31 @@
 ---
 layout: book
-title:  "1-ci sinif HÜSNXƏT"
-authors: ["Bəhram Oruclu"]
+title:  "1-ci sinif Mənim Ana Dili Kitabım"
+authors: ["Çinar Yayımları"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
-image: assets/images/ean/1664283569.png
+image: assets/images/ean/1-sinif-menim-ana-dili-kitabim.png
 grades: "1-Cİ SİNİF" # "məktəbəqədər" ,"1sinif", "2sinif", "3sinif", "4sinif", "5sinif"
 categories: [ "Egitim" ]
 tags: [ "roman"]
 previewpage: true
 
 # Book attributes
-ean: 1664283569
+ean: 1-sinif-menim-ana-dili-kitabim
 languages: ["Türkçe"]
-page: 100
+page: 204
 size: "13,5x21cm"
 publish-number: 27
 cover: "Karton Kapak"
 
 # Buyout Ecommerce
-buynow: "https://cinaryayimlari.com/book-inner/papi-elifba-oyrenir-mektebeqeder-hazirliq-kitabi-20"
+buynow: "https://cinaryayimlari.com/book-inner/1-ci-sinif-menim-ana-dili-kitabim-6"
+
+youtube: true
+youtube-button: "Video"  
+youtubes: [ 
+['Mənim ana dili kitabım', '01:59' ,'https://www.youtube.com/watch?v=jvslx8r5i_g']
+]
 
 # For adding excerpt add <!--more--> and break the line
 ---

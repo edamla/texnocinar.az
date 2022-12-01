@@ -1,17 +1,17 @@
 ---
 layout: book
-title:  "1-ci sinif HÜSNXƏT"
-authors: ["Bəhram Oruclu"]
+title:  "1 класс Математика Листовой Тест"
+authors: ["Çinar Yayımları"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
-image: assets/images/ean/1664283569.png
+image: assets/images/ean/1-sinif-riyaziyyat-yarpaq-test-ru.png
 grades: "1-Cİ SİNİF" # "məktəbəqədər" ,"1sinif", "2sinif", "3sinif", "4sinif", "5sinif"
 categories: [ "Egitim" ]
 tags: [ "roman"]
 previewpage: true
 
 # Book attributes
-ean: 1664283569
+ean: 1-sinif-riyaziyyat-yarpaq-test-ru
 languages: ["Türkçe"]
 page: 100
 size: "13,5x21cm"
@@ -19,7 +19,13 @@ publish-number: 27
 cover: "Karton Kapak"
 
 # Buyout Ecommerce
-buynow: "https://cinaryayimlari.com/book-inner/papi-elifba-oyrenir-mektebeqeder-hazirliq-kitabi-20"
+buynow: "https://cinaryayimlari.com/book-inner/1-%D0%BA%D0%BB%D0%B0%D1%81%D1%81-%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0-%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B9-%D1%82%D0%B5%D1%81%D1%82-9"
+
+youtube: true
+youtube-button: "Video"  
+youtubes: [ 
+['Çinar Yayimlari Riyaziyyat Yarpaq Test Kitabları', '01:59' ,'https://www.youtube.com/watch?v=h-d-obU7JFY']
+]
 
 # For adding excerpt add <!--more--> and break the line
 ---
